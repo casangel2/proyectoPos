@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- iconos -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--Styles-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Dashboard</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="imagenes/logo.png" alt="Company Logo">
+                    <h2 class="text-muted">ONE <span class="colorTitle">QUESTION</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-outlined">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="dashbord.html">
+                    <span class="material-symbols-outlined">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+
+                <a href="index.html" class="active">
+                    <span class="material-symbols-outlined">person</span>
+                    <h3>Customer</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">list_alt</span>
+                    <h3>Orders</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">show_chart</span>
+                    <h3>Analytics</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">forum</span>
+                    <h3>Messages</h3>
+                    <span class="message-count"></span>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">conveyor_belt</span>
+                    <h3>Products</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">report</span>
+                    <h3>Reports</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">settings</span>
+                    <h3>Settings</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">add</span>
+                    <h3>Add Product</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">logout</span>
+                    <h3>Log out</h3>
+                </a>
+
+            </div>
+        </aside>
+
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-symbols-outlined">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$2689</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                    <!--boxes mains -->
+
+                </div>
+
+                <div class="expenses">
+                    <span class="material-symbols-outlined">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total expese</h3>
+                            <h1>$2689</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>61%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                    <!--boxes mains -->
+
+                </div>
+
+                <div class="income">
+                    <span class="material-symbols-outlined">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total income</h3>
+                            <h1>$2689</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                    <!--boxes mains -->
+
+                </div>
+
+
+            </div>
+
+            <div class="recent-orders">
+                <h2>Ordenes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product name</th>
+                            <th>Product order</th>
+                            <th>payment</th>
+                            <th>category</th>
+                            <th>status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mnini drone</td>
+                            <td>85631</td>
+                            <td>due</td>
+                            <td>tecnology</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Mnini drone</td>
+                            <td>85631</td>
+                            <td>due</td>
+                            <td>tecnology</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Mnini drone</td>
+                            <td>85631</td>
+                            <td>due</td>
+                            <td>tecnology</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Mnini drone</td>
+                            <td>85631</td>
+                            <td>due</td>
+                            <td>tecnology</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Mnini drone</td>
+                            <td>85631</td>
+                            <td>due</td>
+                            <td>tecnology</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Mnini drone</td>
+                            <td>85631</td>
+                            <td>due</td>
+                            <td>tecnology</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+                <a href="#">show all</a>
+            </div>
+        </main>
+        <!-- messages-->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-symbols-outlined">light_mode</span>
+                    <span class="material-symbols-outlined">dark_mode</span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hii, <b>Camilo</b></p>
+                        <small class="text-muted">admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="imagenes/profile-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="recent-updates">
+                <h2>chats buyers</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="imagenes/profile-1.jpg" alt="Profile photo">
+                        </div>
+                        <div class="messages">
+                            <p><b>Jordan Jackson</b> received your order of a drone with GPS now</p>
+                            <small class="text-muted">5 min ago</small>
+                            <div class="messagebtn">
+                                <button class="mi-boton">Mensage</button>
+                                <button class="mi-botonDelete">delete</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="imagenes/profile-1.jpg" alt="Profile photo">
+                        </div>
+                        <div class="messages">
+                            <p><b>Jordan Jackson</b> received your order of a drone with GPS now</p>
+                            <small class="text-muted">5 min ago</small>
+                            <div class="messagebtn">
+                                <button class="mi-boton">Mensage</button>
+                                <button class="mi-botonDelete">delete</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="sales-analytics">
+                <h2>Productos</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>computador</h3>
+                            <small class="text-muted">unidades</small>
+                        </div>
+                        <h5 class="success">39</h5>
+                        <h3>$39,499</h3>
+                    </div>
+                </div>
+
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">local_mall</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>playera</h3>
+                            <small class="text-muted">unidades</small>
+                        </div>
+                        <h5 class="number color">29</h5>
+                        <h3>$11,243</h3>
+                    </div>
+                </div>
+
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">person</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>teclado</h3>
+                            <small class="text-muted">unidades</small>
+                        </div>
+                        <h5 class="success">20</h5>
+                        <h3>$394</h3>
+                    </div>
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <span class="material-symbols-outlined">add</span>
+                        <h3>add Product</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
